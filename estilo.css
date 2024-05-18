@@ -1,0 +1,145 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    --color1:#8a6c00;
+    --color2:#a60808;
+    --color3:#1b00a3;
+    --color4:#6F77A6;
+    --color5:#00792f;
+}
+#contenedor{
+    width:95%;
+    margin:5px auto;
+    border:1px solid;
+    font-size: 13px;
+    background-color: #ea4600;
+}
+#cabecera,#pie{
+    background-color:var(--color5);
+}
+#cabecera img{
+    height: 200px;
+    padding: 15px;
+    
+}
+
+#menu{
+    height: 50px;
+}
+#menu ul{
+    list-style-type: none;
+    display:flex;
+    justify-content: end;
+    margin-right: 60px;
+}
+#menu li{
+    padding:15px;
+    
+}
+#menu a{
+    text-decoration: none;
+    color:rgb(2, 0, 110);
+    background-color: #787878;
+    padding:10px;
+    font-size: 1.4em;
+    border-radius: 10px 10px 5px;
+    font-family: "Space Grotesk", sans-serif;
+}
+#menu a:hover{
+    background-color: rgb(2, 0, 110);
+    color: #787878;
+    border:1px solid rgb(255, 0, 0);
+}
+#seccion{
+    height: 50%;
+    padding:15px;
+    display:flex;
+}
+.articulo{
+    width: 50%;
+    margin:10px;
+    padding:10px;
+    border:1px solid;
+    background-color: antiquewhite;
+    
+}
+.articulo img{
+    width: 115px;
+    float:left;
+    margin-right: 35px;
+}
+.articulo div{
+    margin:20px;
+    padding:10px;
+}
+
+.articulo p{
+    text-align: justify;
+    
+}
+.articulo h2{
+    text-align: center;
+    margin-bottom: 20px;
+    padding:5px;
+}
+.titulo{
+    color: white;
+    font-family: "Dosis", sans-serif;
+  font-style: normal;
+}
+#ensaladas h2{
+    background-color: var(--color1);
+    border-radius: 20px;
+}
+#platos h2{
+    background-color: var(--color2);
+    border-radius: 20px;
+}
+#postre h2{
+    background-color: var(--color3);
+    border-radius: 20px;
+}
+#bebidas h2{
+    background-color: var(--color4);
+    border-radius: 20px;
+}
+
+#pie{
+display:flex;
+justify-content: space-between;
+align-items: center;
+flex-wrap: wrap;
+margin:16px;
+padding:16px;
+border:1px solid;
+height: 100px;
+}
+#pie img{    
+    height: 50%;
+}
+#texto{
+    width:80%;
+   font-weight: bold;  
+   margin-left:20px;
+   text-align: center;   
+}
+#e1{
+    background-color:yellow;
+}
+#e2{
+    color: var(--color4);
+}
+.texto{
+    font-family: "Poetsen One", sans-serif;
+  font-style: normal;
+}
+#pie1{
+    color: wheat;
+}
+#pie2{
+    color: #2f2f2f;
+}
+#pie3{
+    color: wheat;  
+}
